@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checpoint DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/522fe0e200.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main">
+    <div class="titre">
+        <h1>Parfumerie</h1>
+    </div>
+    <div class="parfum">
+        <div class="Listeparfum">
+            <h2>GIVENCHY</h2>
+            <div>
+                <img src="https://www.marionnaud.fr/medias/Coffret-eau-de-parfum-lotion-hydratante-pour-le-corps-eau-de-parfum-miniature-102601261.jpg?context=bWFzdGVyfGJhY2svZXh0cmF6b29tfDMzODEyNXxpbWFnZS9qcGVnfGJhY2svZXh0cmF6b29tL2gyNy9oYTgvMTMwNTQxMjQwOTc1NjYuanBnfGQxNzYyYWIxZjY3OTZjODg2ZGZmYWVjZDE2YThkY2E2NzE1NzM3YmZmMmYwZmM2NWIwN2YzOWNhODI3MmIxNzc"
+                    alt="imgError" id="imgParfum">
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-heart" id="like"></i>
+                <!--<button id="like"><i class="fa-regular fa-heart" ></i></button>-->
+                <i class="fa-solid fa-heart-crack" id="dislike"></i>
+            </div>
+            <h3>L’INTERDIT GIVENCHY EAU DE PARFUM</h3>
+            <p>Coffret l'interdit Eau de parfum 100ML</p>
+            <!--<label for="prix" id="labelprix">Prix </label><input type="number" name="prix" value="" id="prix">-->
+            <div class="infoPrix">
+                <div class="titrePrix">
+                    <label for="prix" id="labelprix">Prix </label>
+                    <label for="montant" id="montant">100000 </label><sup>F CFA</sup>
+                </div>
+                <!--<input type="number" name="age" id="age" min="1" max="10" step="2" />-->
+                <div class="panier">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <input type="number" name="numberQte" value="1" min="1" id="numberQte">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="sousTotalPrix">
+                    <label for="sousTotal" id="labelsousTotal">Sous-Total </label>
+                    <input type="number" name="sousTotal" value="100000" id="sousTotal"><sup>F CFA</sup>
+                </div>
+                <div class="changePanier">
+                    <button class="deleteCart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="addCart"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="Listeparfum">
+            <h2>LANCÔME</h2>
+            <div>
+                <img src="https://www.marionnaud.fr/medias/Eau-de-Parfum-Femme-Florale-Gourmande-100257559.jpg?context=bWFzdGVyfGZyb250L2V4dHJhem9vbXwzMTM0Mjl8aW1hZ2UvanBlZ3xmcm9udC9leHRyYXpvb20vaGNkL2g0Ny8xMjg3OTE0MzMwNTI0Ni5qcGd8YzE1OTAzMGRlNjUzZGZjYTgyNjQxYzY0NDM4YWE2YmVmMjA1ZDU0ZDlmNmE5YzhkNzk5MzQwMWFhNWM4ZWIzMA"
+                    alt="imgError" id="imgParfum">
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-heart" id="like"></i>
+                <i class="fa-solid fa-heart-crack" id="dislike"></i>
+            </div>
+            <h3>LA VIE EST BELLE </h3>
+            <p>Eau de Parfum - Florale & Gourmande 100ML</p>
+            <div class="infoPrix">
+                <div class="titrePrix">
+                    <label for="prix" id="labelprix">Prix </label>
+                    <label for="montant" id="montant">140000 </label><sup>F CFA</sup>
+                </div>
+                <!--<input type="number" name="age" id="age" min="1" max="10" step="2" />-->
+                <div class="panier">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <input type="number" name="numberQte" value="1" min="1" id="numberQte">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="sousTotalPrix">
+                    <label for="sousTotal" id="labelsousTotal">Sous-Total </label>
+                    <input type="number" name="sousTotal" value="140000" id="sousTotal"><sup>F CFA</sup>
+                </div>
+                <div class="changePanier">
+                    <button class="deleteCart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="addCart"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="Listeparfum">
+            <h2>KENZO</h2>
+            <div>
+                <img src="https://www.marionnaud.fr/medias/IKEBANA-Eau-de-parfum-102568932.jpg?context=bWFzdGVyfGJhY2svZXh0cmF6b29tfDMwNjgzMHxpbWFnZS9qcGVnfGJhY2svZXh0cmF6b29tL2hiYy9oMGEvMTI4OTc2MzE2OTg5NzQuanBnfGQzYjA3YjhkY2NkYzE5YjE0NzA3MjRkYmM5ZmQ0ZjgxYTE2MGVlZThhNDQ3MTk2ZTI5ZDFlYzExMjI5N2YzYTM  "
+                    alt="imgError" id="imgParfum">
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-heart" id="like"></i>
+                <i class="fa-solid fa-heart-crack" id="dislike"></i>
+            </div>
+            <h3>KENZO FLOWER BY KENZO</h3>
+            <p>IKEBANA - Eau de parfum 100ML</p>
+            <div class="infoPrix">
+                <div class="titrePrix">
+                    <label for="prix" id="labelprix">Prix </label>
+                    <label for="montant" id="montant">125000 </label><sup>F CFA</sup>
+                </div>
+                <!--<input type="number" name="age" id="age" min="1" max="10" step="2" />-->
+                <div class="panier">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <input type="number" name="numberQte" value="1" min="1" id="numberQte">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="sousTotalPrix">
+                    <label for="sousTotal" id="labelsousTotal">Sous-Total </label>
+                    <input type="number" name="sousTotal" value="125000" id="sousTotal"><sup>F CFA</sup>
+                </div>
+                <div class="changePanier">
+                    <button class="deleteCart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="addCart"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="Listeparfum">
+            <h2>GIORGIO ARMANI</h2>
+            <div>
+                <img src="https://www.marionnaud.fr/medias/Eau-de-Parfum-100375248.jpg?context=bWFzdGVyfGZyb250L2V4dHJhem9vbXwyMjYyMzV8aW1hZ2UvanBlZ3xmcm9udC9leHRyYXpvb20vaGQyL2hiZi8xMjA2NzAwNDEyMTExOC5qcGd8YjVlN2JjY2FiY2RhMmZlMDQ1NDdmZDg0NmFjYWM5ZWM1YTAzYzc3M2Y3NzFiZjc0MTBmNjNhZmQwYTE4NTRmNg"
+                    alt="imgError" id="imgParfum">
+            </div>
+            <div class="icon">
+                <i class="fa-regular fa-heart" id="like"></i>
+                <i class="fa-solid fa-heart-crack" id="dislike"></i>
+            </div>
+            <h3>ARMANI</h3>
+            <p>SÌ Eau de Parfum 100ML</p>
+            <div class="infoPrix">
+                <div class="titrePrix">
+                    <label for="prix" id="labelprix">Prix </label>
+                    <label for="montant" id="montant">160000 </label><sup>F CFA</sup>
+                </div>
+                <!--<input type="number" name="age" id="age" min="1" max="10" step="2" />-->
+                <div class="panier">
+                    <button><i class="fa-solid fa-minus"></i></button>
+                    <input type="number" name="numberQte" value="1" min="1" id="numberQte">
+                    <button><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="sousTotalPrix">
+                    <label for="sousTotal" id="labelsousTotal">Sous-Total </label>
+                    <input type="number" name="sousTotal" value="160000" id="sousTotal"><sup>F CFA</sup>
+                </div>
+                <div class="changePanier">
+                    <button class="deleteCart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <button class="addCart"><i class="fa-solid fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="totalCourses">
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        <label for="totalArticle" class="totalArticle libTotal">Nombre Total Article(s) </label>
+        <input type="number" name="totalArticle" value="0" id="totalArticle">
+        <label for="totalAchat" class="totalAchat libTotal">Total Achat  </label>
+        <input type="number" name="totalAchat" value="0" id="totalAchat"><sup>F CFA</sup>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
